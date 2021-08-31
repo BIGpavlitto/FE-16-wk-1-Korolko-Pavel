@@ -2,7 +2,7 @@
 width: 100%;
 padding-top:-250px;
 }
-.awesome__h_title {
+.awesome__header_title {
 padding-top: 100px;
 width: 480px;
 margin: 0px auto 0px;
@@ -14,13 +14,13 @@ line-height: 42px;
 text-align: center;
 color: #212121;
 }
-.awesome__h_line {
+.awesome__header_line {
 margin: 25px auto 0px;
 width: 64px;
 border: 0.5px solid #D98943;
 background-color: #D98943 ;
 }
-.awesome__h_text {
+.awesome__header_text {
 width: 363px;
 margin: 30px auto 0px;
 font-family: Open Sans;
@@ -38,32 +38,32 @@ flex-direction: row;
 justify-content: space-between;
 padding-bottom: 109px;
 }
-.awesome__c_column {
+.awesome__content_column {
 width: 350px;
 text-align: center;
 align-items: center;
 }
-.awesome__c_pic {
+.awesome__content_column_pic {
 margin: auto;
 border: 1px solid #D98943;
 border-radius: 50%;
 }
-.property_w23xh30{
+.property_pic1{
 width: 23px;
 height: 30px;
 padding: 20px 24px;
 }
-.property_w37xh26{
+.property_pic2{
 width: 37px;
 height: 26px;
 padding: 22px 17px;
 }
-.property_w21xh33{
+.property_pic3{
 width: 21px;
 height: 33px;
 padding: 19px 25px;
 }
-.awesome__c_title {
+.awesome__content_column_title {
 width: 189px;
 margin: 30px 80px 16px 80px;
 font-family: Open Sans;
@@ -74,7 +74,7 @@ line-height: 27px;
 text-align: center;
 color: #333333;
 }
-.awesome__c_text {
+.awesome__content_column_text {
 width: 350px;
 margin: 0px auto 20px;
 font-family: Open Sans;
