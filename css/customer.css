@@ -179,3 +179,9 @@ position: relative;
 .axure__footer_button:hover{
 background-color: rgb(247, 241, 242, .5);
 }
+
+@media screen and (max-width: 1124px){
+    .customers__main_column{
+        padding: 10px;
+    }
+}

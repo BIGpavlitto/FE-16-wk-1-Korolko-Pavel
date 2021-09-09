@@ -1,0 +1,134 @@
+.social_upper{
+width: 100%;
+background: #F8EFEF;
+}
+.social_lower{
+width: 100%;
+background: #000000;
+z-index: -1;
+}
+.social__main{
+width:100%;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.social__text_header{
+width: 125px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #333333;
+padding: 14px 0px;
+}
+.social__icons{
+display:flex;
+margin: 34px 0px;
+width: 684px;
+color: #86878B;
+font-size: 42px;
+align-items: center;
+list-style-type: none;
+justify-content: space-between;
+cursor: pointer;
+}
+.social__icons_facebook:hover{
+background-color:  rgb(247, 241, 242, .5);
+transform:scale(1.8);
+border-radius: 15%;
+}
+.social__text_main{
+width:365px;
+text-align: left;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+padding-bottom: 17px;
+}
+.social__icons_twitter:hover{
+background-color:  rgb(247, 241, 242, .5);
+transform:scale(1.8);
+border-radius: 15%;
+}
+.social__icons_google:hover{
+background-color:  rgb(247, 241, 242, .5);
+transform:scale(1.8);
+border-radius: 15%;
+}
+.social__icons_pinterest:hover{
+background-color:  rgb(247, 241, 242, .5);
+transform:scale(1.8);
+border-radius: 15%;
+}
+.social__icons_instagram:hover{
+background-color:  rgb(247, 241, 242, .5);
+transform:scale(1.8);
+border-radius: 15%;
+}
+.social__icons_stumble:hover{
+background-color:  rgb(247, 241, 242, .5);
+transform:scale(1.8);
+border-radius: 15%;
+}
+.social__icons_rss:hover{
+background-color:  rgb(247, 241, 242, .5);
+transform:scale(1.8);
+border-radius: 15%;
+}
+.footer__main{
+padding-top:30px;
+}
+.footer__icons{
+margin:auto;
+width: 317px;
+display: flex;
+z-index: 1;
+color: rgba(255, 255, 255, 0.5);
+list-style-type: none;
+justify-content: space-between;
+font-size: 23px;
+align-items: center;
+cursor: pointer;
+}
+.footer__text{
+padding-top:18px;
+width: 130px;
+margin:auto;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+padding-bottom: 15px;
+}
+@media screen and (max-width: 1150px){
+    .social__main{
+        justify-content: center;
+    }
+    .social__description{
+        width:684px;
+        margin:auto;
+    }
+    .social__text_header{
+        margin:auto;
+    }
+    .social__text_main{
+        width:100%;
+        text-align: center;
+    }
+    .social__icons{
+        margin:auto;
+    }
+}
+@media screen and (max-width: 820px){
+    .social__icons{
+        transform: scale(0.75);
+    }
+}

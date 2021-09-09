@@ -1,6 +1,11 @@
 @import url("awesome.css");
 @import url("pricing.css");
 @import url("customer.css");
+@import url("axit.css");
+@import url("contact_form.css");
+@import url("social_media.css");
+@import url("tab.css");
+
 
 .container{
 margin: auto;

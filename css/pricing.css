@@ -104,3 +104,13 @@ color: #86878B;
 .pricing__content_column_list_background_white{
 background: #FFFFFF;
 }
+@media screen and (max-width: 1124px){
+    .pricing__content_column{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 820px){
+    .pricing__content_column{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,137 @@
+.contact{
+width:100%;
+}
+.contact__form{
+width:100%;
+}
+.contact__header{
+width:100%;
+margin-top:80px;
+margin-bottom:90px;
+}
+.contact__header_title{
+width: 409px;
+margin:auto;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #212121;
+}
+.contact__header_title::after{
+display: block;
+margin:34px auto;
+content:"";
+width:64px;
+height:2px;
+background-color: red;
+}
+.contact__header_text{
+margin:auto;
+width: 363px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #86878B;
+}
+.contact__form__main{
+width:100%;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.contact__form__column{
+width:478px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #BDBDBD;
+overflow: hidden;
+}
+.contact__footer{
+width:100%;
+margin:68px auto 44px;
+}
+.contact__footer_button{
+display:block;
+margin:auto;
+align-items: center;
+background-color: #EC7979;
+padding: 11px 32px;
+text-align: center;
+cursor: pointer;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+border:1px solid #FFFFFF;
+border-radius: 10px 10px;
+}
+.contact__footer_button:hover{
+background-color: rgba(131, 130, 130, 0.918);
+}
+.contact__form_name{
+width:100%;
+margin-bottom:32px;
+}
+.contact__form_email{
+width: 100%;
+margin-bottom: 32px;
+}
+.contact__form_password{
+width:100%;
+}
+.contact__form_input{
+width:100%;
+display: block;
+border:none;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #BDBDBD;
+outline: none;
+}
+.contact__form{
+display: block;
+margin-bottom:13px;
+}
+.contact__form_dif{
+display: block;
+margin-bottom: 27px;
+}
+.contact__form_message{
+width:100%;
+}
+.contact__form_textarea{
+height:189px;
+width:100%;
+border:none;
+outline: none;
+resize:none;
+padding-bottom: 4px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #BDBDBD;
+}
+@media screen and (max-width: 1150px){
+    .contact__form__main{
+        margin:auto;
+        width:100%;
+        justify-content: center;
+
+    }
+}
