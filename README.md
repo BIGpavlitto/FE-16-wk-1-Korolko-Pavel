@@ -5,3 +5,5 @@
 31.08.21 Added customer section!
 
 09.09.21 Added axit, tab, contact_form, social_media sections + media response!
+
+03.10.21 Media requests were changed acc to remarks!
