@@ -114,6 +114,17 @@ background-color:#86878B;
 cursor: pointer;
 }
 
+.tab__content__list_pic_at_media{
+background-image: url('/img/image9.png');
+width:320px;
+height:253px;
+/*position: absolute;*/
+top:0px;
+top:110px;
+left:852px;     
+display: none;
+}
+
 @media screen and (max-width: 1200px){
     .tab__content__pic{
         transform: scale(0.75);
@@ -123,6 +134,11 @@ cursor: pointer;
         left:70%;
         top:30%;
     }
+    .tab__content{
+        margin:auto;
+        width:75%;
+
+    }
 @media screen and (max-width: 1124px){
     .tab__content__list{
         display: block;
@@ -130,6 +146,7 @@ cursor: pointer;
         top:0px;
         margin:0px;
         height:100%;
+        
     }
     .tab__content{
         flex-direction: row-reverse;
@@ -139,12 +156,7 @@ cursor: pointer;
     
     }
     .tab__content__pic{
-        transform: scale(0.75);
-        position: absolute;
-        left:0px;
-        top:0px;
-        left:65%;
-        top:50%;
+        display:none;
 
     }
     .tab__content_margin{
@@ -152,6 +164,11 @@ cursor: pointer;
     }
     .tab__content__text{
         margin-left:0px;
+    }
+    .tab__content__list_pic_at_media{
+        display: block;
+        margin: 20px auto 0px auto;
+        
     }
 }
 @media screen and (max-width: 1000px){
@@ -161,21 +178,11 @@ cursor: pointer;
     .tab__content__text_end{
         width:400px;
     }
-    .tab__content__pic{
-        position: absolute;
-        left:0px;
-        top:0px;
-        left:60%;
-        top:45%;
-    }
     .tab__content{
         justify-content: center;
     }
 }   
 @media screen and (max-width: 820px){
-    .tab__content__pic{
-        display: none;
-    }
     .tab__content{
         justify-content: space-between;
     }
@@ -185,11 +192,22 @@ cursor: pointer;
         width:auto;
         flex-direction: column;
     }
+    .tab__content__list_button{
+        margin: 5px 0px;
+    }
+    .tab__content__list_colored_button{
+        margin: 5px 0px;
+    }
+    .tab__content__text{
+        padding-left: 50px;
+    }
+    .tab__content__list_pic_at_media{
+        display: none;
+    }
 }
 @media screen and (max-width: 550px){
     .tab__content__list{
         margin:auto;
-        width:auto;
         flex-direction: row;
     }   
     .tab__content{
@@ -199,8 +217,13 @@ cursor: pointer;
         justify-content: center;
     }
     .tab__content__text_button{
-        width:100%;
+        width: 100%;
+
     }
+    .tab__content__text{
+        padding: 0px;
+    }
+
     .awesome__h_title{
         font-size: 30px;
         margin:auto;
@@ -211,5 +234,13 @@ cursor: pointer;
     .contact__footer_button{
         width:100%;
     }
+    .tab__content__list_button{
+        margin: 0px 10px;
+    }
+
+    .tab__content__list_colored_button{
+        margin: 0px 10px;
+    }
+    
 }
 }
